@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif, Arial;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #eddcd9;
+	padding: 30px auto;
+}
+
+
+@media (min-width: 1000px) {
+   #main {
+		font-size: 1.2rem;
+	}
+}
+
+
+header h1 {
+	padding-top: 20px;
+}
+
+header p {
+	margin: 20px 0;
+}
+
+#img-div {
+	background-color: #f2ebe9;
+	margin: 0 auto;
+	padding: 10px 10px;
+	width: 98%;
+}
+
+#image {
+	width: 98%;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 1000px) {
+	#image {
+		width: 60%;
+	}
+}
+
+#img-caption {
+	padding: 15px 0;
+	font-size: 15px;
+}
+
+#tribute-info {
+	margin: 50px auto;
+}
+
+h3 {
+	margin-bottom: 50px;
+	padding: 0 15px;
+}
+
+#tribute-info ul {
+	text-align: left;
+	padding: 0 50px;
+	/*width: 55%;*/
+	margin: 0 auto;
+}
+
+#tribute-info li {
+	text-align: left;
+	padding: 13px 0;
+	font-size: 15px;
+  }
+
+@media (min-width: 500px){
+	#tribute-info ul {
+	  	width: 60%;
+	  	font-size: 1.3rem;
+	}
+}
+
+blockquote  {
+	margin-bottom: 20px;
+	display: inline-block;
+	font-size: 1.1rem;
+	margin: 0 auto 50px auto;
+	font-style: italic;
+	padding: 10px;
+	text-align: center;
+}
+
+@media (min-width: 500px){
+	blockquote{
+		width: 60%;
+		text-align: left;
+	}
+}
+
+blockquote p {
+	margin-bottom: 20px;
+}
+
+blockquote cite {
+	margin-top: 50px;
+}
+
+#footer {
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #264143;
+	color: white;
+}
+
+#footer a {
+	color: #de5499;
+}
+
+
+@media (max-width: 500px) {
+  #footer {
+  	font-size: 1em;
+  }
+}
+
+@media (min-width: 500px) {
+	#footer{
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
+
